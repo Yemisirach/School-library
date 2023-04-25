@@ -1,7 +1,8 @@
 require_relative 'person'
 
 class Student < Person
-    def initialize(age, classroom, name = 'Unknown', parent_permission: true)
+  def initialize(classroom, age, name: 'Unknown', parent_permission: true)
+    super(age, name, parent_permission)
     @classroom = classroom
   end
 
@@ -10,5 +11,6 @@ class Student < Person
   end
 end
 
-person = Student.new(14, 'persone_one', false)
+person = Student.new(14, 'persone_one' , false)
 puts person.can_use_services?
+
