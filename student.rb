@@ -13,3 +13,4 @@ end
 
 person = Student.new(14, 'persone_one', false)
 puts person.can_use_services?
+
