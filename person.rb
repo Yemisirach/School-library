@@ -8,8 +8,8 @@ class Person < Nameable
     super()
     @id = Random.rand(1..100)
     @name = name,
-    @age = age,
-    @parent_permission = parent_permission
+            @age = age,
+            @parent_permission = parent_permission
   end
 
   def correct_name

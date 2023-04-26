@@ -14,5 +14,5 @@ person = Person.new(27, 'yemi')
 puts person.correct_name
 capitalized = CapitalizeDecorator.new(person)
 puts capitalized.correct_name
-capitalized_trimmedn = TrimmerDecorator.new(person)
+capitalized_trimmed = TrimmerDecorator.new(person)
 puts capitalized_trimmed.correct_name
