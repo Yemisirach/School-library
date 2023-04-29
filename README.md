@@ -11,6 +11,7 @@
 - [💻 Getting Started ](#-getting-started-)
   - [Setup](#setup)
 - [👥 Authors](#authors)
+- 🔭 Future Features
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -26,9 +27,19 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add new students or teachers.
+-[Class for Person]
 
-- Add new books.
+-[Class for Student]
+
+-[Class for Teacher]
+
+-[Class for Nameable]
+
+-[Class for BaseDecorator]
+
+-[Class for CapitalizeDecorator]
+
+-[Class for TrimmerDecorator]
 
 - Save records of who borrowed a given book and when
 
@@ -55,6 +66,13 @@ You must have Ruby installed in your computer.
 - GitHub: [@yemisrach](https://github.com/Yemisirach)
 - Twitter: [@Yemisirach](https://twitter.com/tamiratyemsrach)
 - LinkedIn: [@Yemisirach](https://www.linkedin.com/in/yemisirach)
+
+🔭 Future Features
+
+[**Add classes**]
+[**Add more subclasses**]
+[**Add basic UI**]
+[**Web Apllication implementation**]
 
 ## 🤝 Contributing
 
