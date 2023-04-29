@@ -41,8 +41,6 @@
 
 -[Class for TrimmerDecorator]
 
-- Save records of who borrowed a given book and when
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
