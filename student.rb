@@ -1,18 +1,16 @@
-require_relative 'person'
-require_relative 'classroom'
-require_relative 'book'
-require_relative 'rental'
+require './person'
+require './classroom'
 
 class Student < Person
-  attr_reader :classroom, :parent_permission, :name
+  attr_reader :classroom
 
-  def initialize(age, name = 'Unknown', classroom = 'classZ', parent_permission: true)
-    super(age, name, parent_permission: parent_permission)
+  def initialize(classroom, age, name = 'Unknown', parent_permission = true)
+    super(age, name, parent_permission)
     @classroom = classroom
   end
 
   def play_hooky
-    '¯\\_(ツ)_/¯'
+    '¯(ツ)/¯'
   end
 
   def classroom=(classroom)
